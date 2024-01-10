@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Heal9ja - Your Health, Our Priority</title>
+    <title>Heal9ja - Your National Health Helpline</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -21,15 +21,34 @@
         }
 
         section {
-            padding: 20px;
+            padding: 40px;
+            text-align: center;
         }
 
         h1 {
             color: #333;
+            margin-bottom: 20px;
         }
 
         p {
             color: #555;
+            margin-bottom: 30px;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .feature {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 30%;
         }
 
         footer {
@@ -38,18 +57,41 @@
             color: #fff;
             text-align: center;
         }
+
+        .feature img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 
 <body>
     <header>
-        <h1>Heal9ja - Your Health, Our Priority</h1>
+        <h1>Heal9ja - Your National Health Helpline</h1>
     </header>
     <section>
         <h2>Welcome to Heal9ja!</h2>
         <p>Your one-stop solution for accessing medical care, connecting with professionals, and staying informed about
             healthcare trends.</p>
-        <!-- Add more sections and details about features here -->
+
+        <div class="features">
+            <div class="feature">
+                <img src="simulation_medical_care.png" alt="Medical Care">
+                <h3>Medical Care Access</h3>
+                <p>Connect with hospitals, pharmacies, and labs easily.</p>
+            </div>
+            <div class="feature">
+                <img src="simulation_consultation.png" alt="Consultation">
+                <h3>Consultation Platform</h3>
+                <p>Talk about your conditions with doctors and other patients.</p>
+            </div>
+            <div class="feature">
+                <img src="simulation_trends.png" alt="Health Trends">
+                <h3>Healthcare Trends</h3>
+                <p>Stay informed about the latest healthcare trends.</p>
+            </div>
+        </div>
     </section>
     <footer>
         &copy; 2024 Heal9ja. All rights reserved.
